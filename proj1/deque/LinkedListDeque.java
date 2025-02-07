@@ -3,13 +3,13 @@ package deque;
 import jh61b.junit.In;
 import net.sf.saxon.expr.instruct.Block;
 
-public class LinkedListDeque<Blorp> {
+public class LinkedListDeque<T> {
     public class Node {
-        public Blorp item;
+        public T item;
         public Node next;
         public Node first;
 
-        public Node(Node c, Blorp i, Node n) {
+        public Node(Node c, T i, Node n) {
             item = i;
             next = n;
             first = c;
@@ -20,7 +20,7 @@ public class LinkedListDeque<Blorp> {
     private Node sentinel;
     private int size = 0;
 
-    public LinkedListDeque(Blorp x) {
+    public LinkedListDeque(T x) {
         sentinel = new Node(sentinel, null, sentinel);
         sentinel.next = new Node(sentinel, x, sentinel.next);
         sentinel.first = sentinel.next;
@@ -35,7 +35,7 @@ public class LinkedListDeque<Blorp> {
         size = 0;
     }
 
-    public void addFirst(Blorp item) {
+    public void addFirst(T item) {
         Node mid = sentinel.next;
         sentinel.next = new Node(sentinel, item, sentinel.next);
         mid.first = sentinel.next;
@@ -43,7 +43,7 @@ public class LinkedListDeque<Blorp> {
         size++;
     }
 
-    public void addLast(Blorp item) {
+    public void addLast(T item) {
         Node mid = sentinel.first;
         sentinel.first = new Node(sentinel.first, item, sentinel);
         mid.next = sentinel.first;
@@ -69,11 +69,11 @@ public class LinkedListDeque<Blorp> {
 
     }
 
-    public Blorp removeFirst() {
+    public T removeFirst() {
         if (sentinel.next.item == null) {
             return null;
         }
-        Blorp miditem = sentinel.next.item;
+        T miditem = sentinel.next.item;
         Node midnode = sentinel.next.next;
         sentinel.next = midnode;
         midnode.first = sentinel;
@@ -81,11 +81,11 @@ public class LinkedListDeque<Blorp> {
         return miditem;
     }
 
-    public Blorp removeLast() {
+    public T removeLast() {
         if (sentinel.first.item == null) {
             return null;
         }
-        Blorp mid = sentinel.first.item;
+        T mid = sentinel.first.item;
         Node midnode = sentinel.first.first;
         sentinel.first = midnode;
         midnode.next = sentinel;
@@ -93,7 +93,7 @@ public class LinkedListDeque<Blorp> {
         return mid;
     }
 
-    public Blorp get(int index){
+    public T get(int index){
         if (index>=size || index < 0){
             return null;
         }

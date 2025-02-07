@@ -4,7 +4,21 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="823301c9-39b5-437f-8653-12fc0d3e2715" name="Changes" comment="" />
+    <list default="true" id="823301c9-39b5-437f-8653-12fc0d3e2715" name="Changes" comment="">
+      <change afterPath="$PROJECT_DIR$/../proj1/deque/LinkedListDeque.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/Arithmetic/Arithmetic.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2/Arithmetic/Arithmetic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/DebugExercise/DebugExercise1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2/DebugExercise/DebugExercise1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/DebugExercise/DebugExercise2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2/DebugExercise/DebugExercise2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/IntList/IntListExercises.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2/IntList/IntListExercises.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab2/IntList/SquarePrimesTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab2/IntList/SquarePrimesTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/randomizedtest/BuggyAList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/randomizedtest/BuggyAList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/randomizedtest/TestBuggyAList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/randomizedtest/TestBuggyAList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/timingtest/AList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/timingtest/AList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/timingtest/TimeAList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/timingtest/TimeAList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../lab3/timingtest/TimeSLList.java" beforeDir="false" afterPath="$PROJECT_DIR$/../lab3/timingtest/TimeSLList.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proj1/deque/LinkedListDequeTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/../proj1/deque/LinkedListDequeTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../proj1/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../proj1/pom.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -21,26 +35,26 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "Application.Main.executor": "Run",
-    "JUnit.TestAtLeastOneMoveExists.executor": "Run",
-    "JUnit.TestEmptySpace.executor": "Run",
-    "JUnit.TestMaxTileExists.executor": "Run",
-    "JUnit.TestModel.executor": "Run",
-    "JUnit.TestUpOnly.executor": "Run",
-    "JUnit.TestUpOnly.testUpBasicMerge.executor": "Run",
-    "JUnit.TestUpOnly.testUpNoMerge.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "git-widget-placeholder": "main",
-    "kotlin-language-version-configured": "true",
-    "last_opened_file_path": "C:/Users/lkh/Desktop/cs61b/trycs01/proj0",
-    "project.structure.last.edited": "Project",
-    "project.structure.proportion": "0.15",
-    "project.structure.side.proportion": "0.2"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;Application.Main.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestAtLeastOneMoveExists.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestEmptySpace.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestMaxTileExists.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestModel.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestUpOnly.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestUpOnly.testUpBasicMerge.executor&quot;: &quot;Run&quot;,
+    &quot;JUnit.TestUpOnly.testUpNoMerge.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
+    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/lkh/Desktop/cs61b/trycs01/proj1&quot;,
+    &quot;project.structure.last.edited&quot;: &quot;Project&quot;,
+    &quot;project.structure.proportion&quot;: &quot;0.15&quot;,
+    &quot;project.structure.side.proportion&quot;: &quot;0.2&quot;
   }
-}]]></component>
-  <component name="RunManager" selected="JUnit.TestModel">
+}</component>
+  <component name="RunManager" selected="JUnit.TestAtLeastOneMoveExists">
     <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="game2048.Main" />
       <module name="proj0" />
@@ -50,6 +64,36 @@
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestAtLeastOneMoveExists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="proj0" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="game2048.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="game2048" />
+      <option name="MAIN_CLASS_NAME" value="game2048.TestAtLeastOneMoveExists" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="TestMaxTileExists" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="proj0" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="game2048.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="game2048" />
+      <option name="MAIN_CLASS_NAME" value="game2048.TestMaxTileExists" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -84,45 +128,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="TestUpOnly.testUpBasicMerge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="proj0" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="game2048.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="game2048" />
-      <option name="MAIN_CLASS_NAME" value="game2048.TestUpOnly" />
-      <option name="METHOD_NAME" value="testUpBasicMerge" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TestUpOnly.testUpNoMerge" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="proj0" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="game2048.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="game2048" />
-      <option name="MAIN_CLASS_NAME" value="game2048.TestUpOnly" />
-      <option name="METHOD_NAME" value="testUpNoMerge" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.TestAtLeastOneMoveExists" />
+        <item itemvalue="JUnit.TestMaxTileExists" />
+        <item itemvalue="Application.Main" />
         <item itemvalue="JUnit.TestModel" />
         <item itemvalue="JUnit.TestUpOnly" />
-        <item itemvalue="JUnit.TestUpOnly.testUpNoMerge" />
-        <item itemvalue="JUnit.TestUpOnly.testUpBasicMerge" />
-        <item itemvalue="Application.Main" />
       </list>
     </recent_temporary>
   </component>
